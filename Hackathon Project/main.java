@@ -43,6 +43,7 @@ class LinkedList {
         this.head = null;
         this.size = 0;
     }
+
     
     
     public void add(User user) {
@@ -67,7 +68,7 @@ class LinkedList {
         }
         
         System.out.println("\n========== USER LIST ==========");
-        System.out.println("UserID,Name,Interest,MutualFriends");
+        System.out.println("UserID,   Name,   Interest,  MutualFriends");
         System.out.println("================================");
         
         Node temp = head;
